@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #60b8f2, #4d8cc3); /* Two-color combination */
+    color: #fff;
+    padding: 1rem 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: #333;
+    border-bottom: 2px solid #fff;
+}
+
+
+.hero {
+    margin-top: 70px; /* To offset the fixed header height */
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    color: #333;
+    padding: 3rem 0;
+}
+
+.hero .hero-content {
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.learning {
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    padding: 2rem 0;
+}
+
+.learning-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-content {
+    width: 50%;
+}
+
+.text-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text-content h2 .highlight {
+    color: #0073e6;
+    font-weight: bold;
+}
+
+.text-content p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.text-content .join-course {
+    background: #ffcc00;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.text-content .how-it-works {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.text-content .how-it-works span {
+    margin-right: 0.5rem;
+}
+
+.image-content {
+    width: 50%;
+    text-align: right;
+}
+
+.image-content img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.programs {
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    padding: 50px 0;
+}
+.programs h1{
+    padding-left: 10%;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.program-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.image-content, .box {
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.image-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.box {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    height: 350px;
+}
+
+.box h5 {
+    color: #bf962e;
+}
+
+.box h4 {
+    color: #3fdaab;
+}
+
+.box h3 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.box p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.box button {
+    background: #1e90ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box button:hover {
+    background: #1c86ee;
+}
+
+.box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.why-choose-us {
+    background: linear-gradient(to bottom, #e0f7fa, #f4f4f4);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.why-choose-us h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.why-choose-us p {
+    margin-bottom: 1rem;
+}
+
+.why-choose-us ul {
+    list-style-type: disc;
+    margin-left: 1rem;
+    text-align: left;
+    display: inline-block;
+    text-align: left;
+}
+
+.why-choose-us ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background: linear-gradient(to right, #60b8f2, #4d8cc3);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
